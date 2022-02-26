@@ -1,8 +1,8 @@
-function getAgeInYears (name,age){
-    return  name ,age ;
 
+function greeting(name,age){
+    
+    const message = "my Name is "+ name + "and i am  " + a + "year old";
+    return message
 }
+   console.log(greeting( ali , 26)) 
 
-    const message = "my Name is "+ name + "and i am  " + age + "year old";
-
-     console.log(message + getAgeInYears( andres , 26))
