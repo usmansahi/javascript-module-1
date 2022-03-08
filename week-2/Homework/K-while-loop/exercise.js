@@ -10,6 +10,15 @@ let n = 10;
 
 function sumTillNum(num){
 	//your code here
+	let i = num
+	let sumofresult = 0
+	while(i >0){
+		sumofresult = sumofresult + i
+		
+	}
+	return sumofresult
+	
 }
 
 console.log("Sum from 0 to " + n + " is: " + sumTillNum(n));
+
