@@ -6,10 +6,12 @@
 */
 
 function isEmpty(arr) {
-  if (arr ===[]){
-
-  return true; // complete this statement
-}
+  if(arr.length==0){
+    return true;
+  }
+ else{
+   return false
+ } // complete this statement
 }
 
 /* 
